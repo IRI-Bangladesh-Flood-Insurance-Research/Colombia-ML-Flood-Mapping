@@ -14,13 +14,13 @@ Start date, end date, region of interest, and training data can all be inputted 
 Returns a GEE image with a "classification band" - i.e. the output of classifying the given flood event using the created classifier. The image can also added as a Map layer on line 134.
 
 _Example_: [October 2019 Flood Event in the Villavicencio municipality of Meta] (https://code.earthengine.google.com/aec073442353a6d33f4042c4f3a9495c)
-![](/images/villavicencio.png)
+![](villavicencio.png)
 
 #### Time Series Mode:
 Exports a CSV file with the following columns: Date, Fractional Flooded Area, Total Flooded Area.
 
 _Example_: [January 2019 Time Series for the Ayapel municipality of Córdoba] (https://code.earthengine.google.com/fb0eab5fcff4b894e5fcda2bca6cf115)
-![](/images/ayapel_ts.png)
+![](ayapel_ts.png)
 
 ## Training Data
   - If running this algorithm for the Córdoba or Meta departments, then use the training data available in this repository.
