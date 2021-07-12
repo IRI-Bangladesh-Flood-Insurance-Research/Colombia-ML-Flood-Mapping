@@ -1,7 +1,10 @@
 # Colombia-ML-Flood-Mapping
 Google Earth Engine (GEE) algorithms for creating single flood event visualizations and time series of daily inundated area in Colombia. These scripts use a random forest classifier that was built using training data from **only** the Córdoba and Meta departments of Colombia. For compiling training data in other regions, see the **Training Data** section below.
 
-[**Single Flood Event Mode:**](https://code.earthengine.google.com/aec073442353a6d33f4042c4f3a9495c): Generates a flood map for a given region of interest and date range.
+Note: An account on the GEE is required to use the GEE scripts below. To sign up for an account, go to https://earthengine.google.com.
+
+**_Links to GEE Scripts:_**
+[**Single Flood Event Mode:**](https://code.earthengine.google.com/aec073442353a6d33f4042c4f3a9495c) Generates a flood map for a given region of interest and date range.
 
 [**Time Series Mode:**](https://code.earthengine.google.com/fb0eab5fcff4b894e5fcda2bca6cf115) Creates a CSV file with daily inundated area across a specified region of interest and date range. 
 
