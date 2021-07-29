@@ -28,7 +28,7 @@ _Example_: [January 2019 Time Series for the Ayapel municipality of Córdoba](ht
 
 ## Training Data
   - If running this algorithm for the Córdoba or Meta departments, then use the training data available in this repository.
-  - If running for algorithms, then use the following process:
+  - If running for other regions, then use the following process:
     1. Draw geometries in GEE, half of which cover water and the other half which cover non-water regions during different flood events. Be as specific as possible in these geometries, and cross-compare images from Sentinel-1, Sentinel-2, or Planetscope during each flood event's date range to verify that the water and non-water geometries are accurate.
     2. For each flood event, convert its geometries into two feature collections (water and non-water), and add a 'flood' property to each collection where the non-water collection is set to 0 and water collection is set to 1.
     3. Sample 5000 pixels from each feature collection.
